@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#103e40">
+<meta name="description" content="Canela River Rooftop, Vallecito, Arequipa. Consulta nuestra carta de comida y bebidas, encuentra nuestra ubicación y reserva tu mesa por WhatsApp.">
+<title>Canela · River Rooftop</title>
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css">
+<script src="./config.js" defer></script>
+<script src="./assets/vendor/page-flip.browser.js" defer></script>
+<script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#enlaces">Ir a los enlaces</a>
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+<symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M21 11.5A9 9 0 0 1 7 19l-5 2 2-5A9 9 0 1 1 21 11.5Z"/><path d="M8 7c-2 4 3 9 7 8l1-2-3-1-1 1-2-2 1-1-1-3Z"/></symbol>
+<symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 3v12.5a4.5 4.5 0 1 1-4-4.47V14a2 2 0 1 0 1.5 2V3H14c.6 2.6 2.2 4.3 5 4.5V10c-2-.1-3.8-.8-5-2"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V3m-4 4 4-4 4 4M6 11H4v10h16V11h-2"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 3C7 2 2 8 6 16c8 4 14-1 14-13Z M4 21 16 8"/></symbol>
+<symbol id="i-food" viewBox="0 0 24 24"><path d="M3 3v5a3 3 0 0 0 6 0V3M6 3v18M17 21V3c-4 2-5 8 0 9"/></symbol>
+<symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+<symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+</defs></svg>
+<div class="site" id="site">
+<aside class="photo-panel" aria-label="Ambiente ilustrativo de terraza al atardecer">
+  <img class="terrace" src="./assets/terraza.png" alt="Ilustración de una terraza con mesas, vegetación y un atardecer andino" fetchpriority="high">
+  <div class="photo-shade"></div>
+  <div class="photo-top"><span>CANELA</span><span>VALLECITO, AREQUIPA</span></div>
+  <div class="photo-copy"><span class="eyebrow">ENTRE EL RÍO Y EL ATARDECER</span><p>Tu pausa<br>empieza <em>aquí.</em></p><div class="fine-line"></div><span>Un lugar para compartir.</span></div>
+  <small class="image-note">_</small>
+</aside>
+<main class="hub">
+  <div class="toolbar"><button class="icon-button" id="replay" aria-label="Volver a ver la introducción" title="Ver introducción"><svg><use href="#i-sun"/></svg></button><span>RIVER ROOFTOP</span><button class="icon-button" id="share" aria-label="Compartir esta página" title="Compartir"><svg><use href="#i-share"/></svg></button></div>
+  <header class="profile reveal">
+    <img class="logo" src="./assets/logo.png" alt="Canela River Rooftop" width="112" height="112">
+    <p class="eyebrow">AREQUIPA · PERÚ</p>
+    <h1>Canela <em>River Rooftop</em></h1>
+    <p class="tagline" id="tagline">Sabores para compartir y atardeceres inolvidables.</p>
+    <div class="details"><p><svg><use href="#i-clock"/></svg><span id="hours">Lunes a sábado · 3:00–9:00 p. m.</span></p><p class="address"><svg><use href="#i-pin"/></svg><span id="address">Calle García Calderón 408-A, esquina con Av. La Marina, Vallecito, Arequipa</span></p></div>
+    <nav class="socials" aria-label="Redes sociales"><a id="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Canela"><svg><use href="#i-instagram"/></svg></a><a id="whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Canela"><svg><use href="#i-whatsapp"/></svg></a><a id="tiktok" target="_blank" rel="noopener noreferrer" aria-label="TikTok de Canela"><svg><use href="#i-tiktok"/></svg></a></nav>
+  </header>
+  <nav class="link-list" id="enlaces" aria-label="Enlaces principales">
+    <a class="link-card reveal" id="location" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg><use href="#i-pin"/></svg></span><span><strong>Ubicación</strong><small>Encuéntranos en Vallecito</small></span><span class="card-detail">MAPA</span></a>
+    <a class="link-card reveal" id="drinks" href="./cartas/cocktails.pdf" data-flipbook="cocktails"><span class="card-icon"><svg><use href="#i-leaf"/></svg></span><span><strong>Bebidas - Cocteleria</strong><small>Consulta nuestra carta</small></span><span class="card-detail">CARTA</span></a>
+    <a class="link-card reveal" id="food" href="./cartas/comida.pdf" data-flipbook="comida"><span class="card-icon"><svg><use href="#i-food"/></svg></span><span><strong>Carta de comida</strong><small>Algo rico para compartir</small></span><span class="card-detail">CARTA</span></a>
+    <a class="link-card reservation reveal" id="reserve" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg><use href="#i-whatsapp"/></svg></span><span><strong>Reserva tu mesa</strong><small id="phone">+51 941 576 020</small></span><span class="card-detail">WHATSAPP</span></a>
+    <a class="link-card community reveal" id="community" target="_blank" rel="noopener noreferrer"><span class="card-icon"><svg><use href="#i-whatsapp"/></svg></span><span><strong>Comunidad Canela</strong><small>Únete a nuestro grupo de WhatsApp</small></span><span class="card-detail">ÚNETE</span></a>
+  </nav>
+  <footer class="reveal"><span>Nos vemos en Canela.</span><div class="footer-line"></div><small>VALLECITO · AREQUIPA</small></footer>
+</main>
+</div>
+<dialog class="intro" id="intro" aria-labelledby="intro-title">
+  <div class="intro-scene" aria-hidden="true"><div class="intro-glow"></div><div class="intro-sun"></div><div class="intro-orbit"></div><div class="intro-water"><i></i><i></i><i></i><i></i></div></div>
+  <video id="intro-video" muted playsinline preload="none" hidden aria-hidden="true"></video>
+  <div class="intro-top"><span>AREQUIPA, PERÚ</span></div>
+  <div class="intro-content"><img src="./assets/logo.png" alt="" width="100" height="100"><span class="eyebrow">UN ENCUENTRO CON EL SABOR</span><h2 id="intro-title"><span>C</span><span>A</span><span>N</span><span>E</span><span>L</span><span>A</span></h2><p class="intro-script">River Rooftop</p><p>La ciudad sigue. Tu pausa empieza aquí.</p><button class="enter" id="enter">Entrar a Canela</button></div>
+  <div class="intro-bottom"><span>VALLECITO</span><span>ENTRE EL RÍO Y EL ATARDECER</span></div><div class="intro-progress"></div>
+</dialog>
+<dialog class="notice" id="notice" aria-labelledby="notice-title"><button class="icon-button notice-close" id="close-notice" aria-label="Cerrar"><svg><use href="#i-close"/></svg></button><span class="eyebrow">CANELA RIVER ROOFTOP</span><h2 id="notice-title">Nuestra carta</h2><p id="notice-text">Puedes consultar la carta y su disponibilidad por WhatsApp.</p><a class="notice-cta" id="notice-whatsapp" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a></dialog>
+<dialog class="flipbook" id="flipbook" aria-label="Carta digital">
+  <button id="flip-close" class="flip-close" type="button" aria-label="Cerrar carta"><svg><use href="#i-close"/></svg></button>
+  <div class="book-area" id="book-area"></div>
+  <button id="flip-prev" class="flip-arrow prev" type="button" aria-label="Página anterior" hidden><svg><use href="#i-chev-l"/></svg></button>
+  <button id="flip-next" class="flip-arrow next" type="button" aria-label="Página siguiente"><svg><use href="#i-chev-r"/></svg></button>
+  <a id="flip-download" class="flip-download" download>Descargar carta</a>
+</dialog>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<noscript><div class="no-js">Consulta las cartas y reservas en <a href="https://wa.me/51941576020">WhatsApp: +51 941 576 020</a>.</div></noscript>
+</body></html>
